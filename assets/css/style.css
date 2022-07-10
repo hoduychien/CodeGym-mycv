@@ -1,0 +1,49 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;700&display=swap');
+
+*{
+    margin: 0;
+    padding: auto;
+}
+
+body{
+    background-image: url('https://wallpaperaccess.com/full/754632.jpg');
+    background-size: cover;
+}
+
+html{
+    font-family: 'Montserrat', sans-serif;
+    box-sizing: border-box;
+}
+
+.container{
+    text-align: center;
+}
+
+.header{
+    width: inline-block;
+    height: 150px;
+    margin: 0 auto;
+    
+}
+.header img{
+    margin-top: 20px;
+    width: 150px;
+    border: none;
+    outline: none;
+    border-radius: 50%;
+}
+
+.header h3,p{
+    margin-bottom: 10px;
+    font-size: 18px;
+    color: rgb(66, 20, 23);
+}
+
+.header h3{
+    font-size: 30px;
+    font-weight: 500;
+}
+
+.header hr{
+    width: 150px;
+}
